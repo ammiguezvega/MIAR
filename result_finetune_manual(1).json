@@ -1,0 +1,41 @@
+{
+  "experiment": "double_lr05_finetune",
+  "mean_reward": 24.2,
+  "std_reward": 2.891366458960192,
+  "rewards": [
+    22.0,
+    22.0,
+    27.0,
+    27.0,
+    26.0,
+    23.0,
+    30.0,
+    21.0,
+    22.0,
+    22.0
+  ],
+  "params": {
+    "memory_size": 1000000,
+    "learning_rate": 2e-05,
+    "annealing_steps": 1000000,
+    "enable_double_dqn": true,
+    "conv_layers": [
+      [
+        32,
+        8,
+        4
+      ],
+      [
+        64,
+        4,
+        2
+      ],
+      [
+        64,
+        3,
+        1
+      ]
+    ],
+    "dense_units": 512
+  }
+}
